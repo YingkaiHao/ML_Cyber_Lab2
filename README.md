@@ -28,7 +28,7 @@
 
 ## How to run my code
 
-My code located in "Homework-2.ipynb" as you can see above. In order to run my code correctly, You need to put the models and data into right places based on the structure of directories above. And, you need to create the folder "fixed_models" by yourself and leave it empty.
+My code located in "Homework-2.ipynb" as you can see above. In order to run my code correctly, You need to put the models and data into right places based on the structure of directories above. And, you need to create the folder "fixed_models" by yourself and leave it empty. Also, you could find data [here](https://github.com/csaw-hackml/CSAW-HackML-2020/tree/master/lab3).
 
 ## Conclusion
 
