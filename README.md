@@ -7,12 +7,12 @@
 	|____bd_net.h5
 	|____bd_weights.h5
 |____data
-		|____bd
-			|____bd_valid.h5
-			|____bd_test.h5
-		|____cl
-			|____valid.h5
-			|____test.h5
+	|____bd
+		|____bd_valid.h5
+		|____bd_test.h5
+	|____cl
+		|____valid.h5
+		|____test.h5
 |____fixed_models
 	|____bd_4.h5
 	|____bd_4_weights.h5
