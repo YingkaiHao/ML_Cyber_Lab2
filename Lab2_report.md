@@ -1,34 +1,32 @@
-# ML_Cyber_Lab2
+# ML_Cyber_Lab2_Report
 
-## Structure of directories
+## Github Repository
 
-```
-|____model
-	|____bd_net.h5
-	|____bd_weights.h5
-|____data
-		|____bd
-			|____bd_valid.h5
-			|____bd_test.h5
-		|____cl
-			|____valid.h5
-			|____test.h5
-|____fixed_models
-	|____bd_4.h5
-	|____bd_4_weights.h5
-	|____bd_2_weights.h5
-	|____bd_10.h5
-	|____bd_2.h5
-	|____bd_10_weights.h5
-|____Homework-2.ipynb
-|____Homework-2.pdf
-|____lab2.pdf
-|____Lab2_report.md
-```
+https://github.com/YingkaiHao/ML_Cyber_Lab2
 
-## How to run my code
+## Result
 
-My code located in "Homework-2.ipynb" as you can see above. In order to run my code correctly, You need to put the models and data into right places based on the structure of directories above. And, you need to create the folder "fixed_models" by yourself and leave it empty.
+### Performance of the original model on test data
+
+| Clean Classification Accuracy | Attack Success Rate |
+| ----------------------------- | ------------------- |
+| 98.62%                        | 100%                |
+
+### Performance of the repaired model on test data
+
+| validation accuracy drop  X% | Clean Classification Accuracy | Attack Success Rate |
+| ---------------------------- | ----------------------------- | ------------------- |
+| x = 2                        | 96.31%                        | 100%                |
+| x = 4                        | 92.30%                        | 99.98%              |
+| x = 10                       | 84.54%                        | 77.21%              |
+
+### Performance of the repaired_net (G) on test data
+
+| validation accuracy drop  X% | Clean Classification Accuracy | Attack Success Rate |
+| ---------------------------- | ----------------------------- | ------------------- |
+| x = 2                        | 96.05%                        | 100%                |
+| x = 4                        | 92.13%                        | 99.98%              |
+| x = 10                       | 84.33%                        | 77.21%              |
 
 ## Conclusion
 
