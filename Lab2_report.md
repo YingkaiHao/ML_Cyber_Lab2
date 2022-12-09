@@ -16,15 +16,15 @@ https://github.com/YingkaiHao/ML_Cyber_Lab2
 
 | validation accuracy drop  X% | Clean Classification Accuracy | Attack Success Rate |
 | ---------------------------- | ----------------------------- | ------------------- |
-| x = 2                        | 96.31%                        | 100%                |
-| x = 4                        | 92.30%                        | 99.98%              |
+| x = 2                        | 95.90%                        | 100%                |
+| x = 4                        | 92.29%                        | 99.98%              |
 | x = 10                       | 84.54%                        | 77.21%              |
 
 ### Performance of the repaired_net (G) on test data
 
 | validation accuracy drop  X% | Clean Classification Accuracy | Attack Success Rate |
 | ---------------------------- | ----------------------------- | ------------------- |
-| x = 2                        | 96.05%                        | 100%                |
+| x = 2                        | 95.74%                        | 100%                |
 | x = 4                        | 92.13%                        | 99.98%              |
 | x = 10                       | 84.33%                        | 77.21%              |
 
